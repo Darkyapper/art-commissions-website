@@ -59,7 +59,7 @@ header {
 }
 
 main {
-    padding-top: 85px; /* Ajusta este valor dependiendo de la altura total de tu header */
+    padding-top: 100px; /* Ajusta este valor dependiendo de la altura total de tu header */
 }
 
 .presentation-one{
@@ -77,4 +77,5 @@ main {
 .presentation-one .one-text-part p{
     font-family: 'Open Sans', sans-serif;
     margin:0;
+    font-size: 25px;
 }
