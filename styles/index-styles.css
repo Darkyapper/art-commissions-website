@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Zain:wght@200;300;400;700;800;900&display=swap');
+
+body{
+    background: rgb(16,11,17);
+    background: linear-gradient(0deg, rgba(16,11,17,1) 0%, rgba(30,20,33,1) 42%, rgba(79,25,96,1) 100%);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    padding: 10px 0;
+    background-color: rgba(16, 11, 17, 0.9); /* Fondo semi-transparente para el header */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Logo */
+.logo img {
+    height: 50px; /* Ajusta la altura del logo según tus necesidades */
+    filter: invert(1);
+}
+
+/* Navigation Styles */
+.navigation ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation ul li {
+    margin-left: 20px;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.navigation ul li a:hover {
+    color: #ff4b5c; /* Cambia el color cuando pasas el cursor por encima */
+}
+
+main {
+    padding-top: 85px; /* Ajusta este valor dependiendo de la altura total de tu header */
+}
+
+.presentation-one{
+    margin-left:20px;
+    color:white;
+    display:flex;
+}
+
+.presentation-one .one-text-part h1{
+    font-family: 'Zain', sans-serif;
+    font-size:50px;
+    font-weight: 900;
+    margin:0;
+}
+.presentation-one .one-text-part p{
+    font-family: 'Open Sans', sans-serif;
+    margin:0;
+}
