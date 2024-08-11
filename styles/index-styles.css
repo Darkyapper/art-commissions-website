@@ -11,7 +11,7 @@ body{
 
 header {
     width: 100%;
-    padding: 10px 0;
+    padding: 0.7% 0;
     background-color: rgba(16, 11, 17, 0.9);
     position: fixed;
     top: 0;
@@ -24,13 +24,13 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 90%;
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
 /* Logo */
 .logo img {
-    height: 50px;
+    height: 3.2rem;
     filter: invert(1);
 }
 
@@ -43,7 +43,7 @@ header {
 }
 
 .navigation ul li {
-    margin-left: 20px;
+    margin-left: 1.5rem;
 }
 
 .navigation ul li a {
@@ -59,40 +59,41 @@ header {
 }
 
 main {
-    padding-top: 100px;
+    padding-top: 6rem;
 }
 
 .presentation-one{
-    margin-left:20px;
+    margin-left:1.5rem;
     color:white;
     display:flex;
 }
 
 .presentation-one .one-text-part {
-    padding-left: 18px;
+    padding-left: 1.2rem;
     animation: slideInFromLeft 1s ease-out;
     width:50%
 }
 
 .presentation-one .one-text-part h1{
     font-family: 'Zain', sans-serif;
-    font-size:50px;
+    font-size:3.3rem;
     font-weight: 900;
     margin:0;
 }
 .presentation-one .one-text-part p{
     font-family: 'Open Sans', sans-serif;
     margin:0;
-    font-size: 25px;
+    font-size: 1.6rem;
 }
 
 .presentation-one .one-images-part{
-    margin-left: 50px;
+    margin-left: 1.5rem;
 }
 
 .presentation-one .one-images-part img{
     animation: fadeInFromRight 1.5s ease-out;
-    width: 500px;
+    width: 32rem;
+    height: auto;
 }
 
 /* Animaciones */
