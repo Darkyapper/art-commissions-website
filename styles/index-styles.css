@@ -85,6 +85,7 @@ main {
 }
 
 .presentation-one{
+    overflow: hidden; 
     margin-left:1.5rem;
     color:white;
     display:flex;
