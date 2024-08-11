@@ -69,6 +69,7 @@ main {
 }
 
 .presentation-one .one-text-part {
+    padding-top:10rem;
     padding-left: 1.2rem;
     animation: slideInFromLeft 1s ease-out;
     width:50%
