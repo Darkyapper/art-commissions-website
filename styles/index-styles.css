@@ -12,7 +12,7 @@ body{
 header {
     width: 100%;
     padding: 10px 0;
-    background-color: rgba(16, 11, 17, 0.9); /* Fondo semi-transparente para el header */
+    background-color: rgba(16, 11, 17, 0.9);
     position: fixed;
     top: 0;
     left: 0;
@@ -30,7 +30,7 @@ header {
 
 /* Logo */
 .logo img {
-    height: 50px; /* Ajusta la altura del logo según tus necesidades */
+    height: 50px;
     filter: invert(1);
 }
 
@@ -55,17 +55,23 @@ header {
 }
 
 .navigation ul li a:hover {
-    color: #ff4b5c; /* Cambia el color cuando pasas el cursor por encima */
+    color: #ff4b5c;
 }
 
 main {
-    padding-top: 100px; /* Ajusta este valor dependiendo de la altura total de tu header */
+    padding-top: 100px;
 }
 
 .presentation-one{
     margin-left:20px;
     color:white;
     display:flex;
+}
+
+.presentation-one .one-text-part {
+    padding-left: 18px;
+    animation: slideInFromLeft 1s ease-out;
+    width:50%
 }
 
 .presentation-one .one-text-part h1{
@@ -78,4 +84,36 @@ main {
     font-family: 'Open Sans', sans-serif;
     margin:0;
     font-size: 25px;
+}
+
+.presentation-one .one-images-part{
+    margin-left: 50px;
+}
+
+.presentation-one .one-images-part img{
+    animation: fadeInFromRight 1.5s ease-out;
+    width: 500px;
+}
+
+/* Animaciones */
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInFromRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
