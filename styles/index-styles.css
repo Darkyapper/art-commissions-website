@@ -120,6 +120,10 @@ main {
     height: auto;
 }
 
+.presentation-one .one-text-part .btn{
+    margin-top:1.5rem;
+}
+
 /* Animaciones */
 @keyframes slideInFromLeft {
     0% {
@@ -150,6 +154,7 @@ main {
         align-items: center;
         text-align: center;
         margin-left: 0;
+        margin-top: -1.5rem;
     }
 
     .presentation-one .one-text-part {
