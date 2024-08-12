@@ -7,6 +7,7 @@ body{
     background-attachment: fixed;
     height: 100vh;
     margin: 0;
+    overflow-x: hidden;
 }
 
 header {
@@ -121,8 +122,48 @@ main {
 }
 
 .presentation-one .one-text-part .btn{
-    margin-top:1.5rem;
+    margin-top:2rem;
 }
+
+.presentation-two{
+    margin-top: 5rem;
+}
+
+.presentation-two .two-text-part{
+    text-align: center;
+    color: white;
+}
+
+.two-cards-part .two-container-com {
+    margin-top: 3rem;
+}
+
+.two-cards-part .custom-card {
+    background-color: #343a40;
+    color: #ffffff;
+    border: none;
+}
+
+.two-cards-part .custom-card .card-title {
+    font-family: 'Zain', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.two-cards-part .custom-card .card-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.two-cards-part .custom-card .btn-primary {
+    background-color: #840ea8;
+    border-color: #431352;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
 
 /* Animaciones */
 @keyframes slideInFromLeft {
@@ -204,5 +245,16 @@ main {
     
     .navigation ul.show {
         display: flex;
+    }
+
+    .two-cards-part .two-container-com {
+        flex-direction: column; /* Cambia a una columna en móviles */
+        margin: 0 0.5rem; /* Reduce el margen en móviles */
+    }
+
+    .two-cards-part .custom-card {
+        flex: 1 1 100%; /* Las cartas ocupan el 100% en móviles */
+        max-width: 100%;
+        margin-bottom: 1.5rem; /* Espaciado vertical entre cartas */
     }
 }
