@@ -247,6 +247,10 @@ main {
         display: flex;
     }
 
+    .two-cards-part {
+        margin-top: 2rem;
+    }
+    
     .two-cards-part .two-container-com {
         flex-direction: column; /* Cambia a una columna en móviles */
         margin: 0 0.5rem; /* Reduce el margen en móviles */
