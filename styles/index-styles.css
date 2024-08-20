@@ -112,12 +112,12 @@ main {
 }
 
 .presentation-one .one-images-part{
-    margin-left: 1.5rem;
+    margin-left: 5rem;
 }
 
 .presentation-one .one-images-part img{
     animation: fadeInFromRight 1.5s ease-out;
-    width: 32rem;
+    width: 30rem;
     height: auto;
 }
 
@@ -134,8 +134,15 @@ main {
     color: white;
 }
 
+.presentation-two .two-text-part h1{
+    font-family: 'Zain', sans-serif;
+    font-size: 3.8rem;
+    font-weight: 900;
+    margin: 0;
+}
+
 .two-cards-part .two-container-com {
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 .two-cards-part .custom-card {
@@ -164,6 +171,51 @@ main {
     font-weight: 300;
 }
 
+.presentation-three{
+    margin-top: 2rem;
+    color: white;
+}
+
+.three-text-part{
+    text-align: center;
+}
+
+.three-text-part h1{
+    font-family: 'Zain', sans-serif;
+    font-size: 3.8rem;
+    font-weight: 900;
+    margin: 0;
+}
+
+.presentation-three .three-container{
+    overflow: hidden; 
+    margin-left:1.5rem;
+    color:white;
+    display:flex;
+    margin-top:1rem;
+}
+
+.presentation-three .image-info-part img{
+    width: 26rem;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.presentation-three .image-info-part{
+    padding-left: 6%;
+}
+
+.presentation-three .three-info-part{
+    padding-top:2rem;
+    padding-left: 4rem;
+    width:50%;
+    text-align: justify;
+}
+
+.presentation-three .three-info-part p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+}
 
 /* Animaciones */
 @keyframes slideInFromLeft {
@@ -250,7 +302,11 @@ main {
     .two-cards-part {
         margin-top: 2rem;
     }
-    
+
+    .presentation-two .two-text-part h1 {
+        font-size: 2.5rem;
+    }
+
     .two-cards-part .two-container-com {
         flex-direction: column; /* Cambia a una columna en móviles */
         margin: 0 0.5rem; /* Reduce el margen en móviles */
@@ -261,4 +317,53 @@ main {
         max-width: 100%;
         margin-bottom: 1.5rem; /* Espaciado vertical entre cartas */
     }
+
+    .presentation-three {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-left: 0;
+        margin-top: -1.5rem;
+    }
+
+    .three-container {
+        flex-direction: column;
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+
+    .three-container .three-text-part {
+        width: 90%;
+        padding-top: 2rem;
+        padding-left: 0;
+    }
+
+    .presentation-three .three-text-part h1 {
+        font-size: 2.5rem;
+    }
+
+    .three-container .three-info-part p {
+        font-size: 1.2rem;
+    }
+
+    .three-container .image-info-part {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+
+    .three-container .image-info-part img {
+        width: 80%;
+        height: auto;
+    }
+
+    .three-container .image-info-part{
+        padding-left: 0;
+        margin-left: -1rem;
+    }
+
+    .three-container .three-info-part {
+        width: 100%;
+        margin-left: -2.5rem;
+    }
+
 }
