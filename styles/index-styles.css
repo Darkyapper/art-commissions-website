@@ -217,6 +217,136 @@ main {
     font-size: 1.5rem;
 }
 
+.presentation-four{
+    margin-top: 5rem;
+    color: white;
+}
+
+.four-text-part{
+    text-align: center;
+}
+
+.four-text-part h1{
+    font-family: 'Zain', sans-serif;
+    font-size: 3.8rem;
+    font-weight: 900;
+    margin: 0;
+}
+
+.four-text-part p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    width: 80rem;
+    margin-left: 2rem;
+}
+
+.four-container-info {
+    width: 81rem; /* El tamaño que has definido */
+    margin: 0 auto; /* Esto centrará el contenedor horizontalmente */
+}
+
+.preview-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 2rem;
+    background-color: #2a2a2a;
+    padding: 2rem;
+    border-radius: 1rem;
+    color: white;
+}
+
+.image-preview {
+    position: relative;
+    width: 50%;
+    height: auto;
+}
+
+.background-preview {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: 1; /* Asegura que el fondo esté detrás de la imagen */
+}
+
+.image-preview img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 2; /* Asegura que la imagen esté delante del fondo */
+}
+
+.options-container {
+    flex: 1;
+    padding-left: 2rem;
+}
+
+.option-group {
+    margin-bottom: 1.5rem;
+}
+
+.option-group p {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    font-family: 'Zain', sans-serif;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.option {
+    background-color: #343a40;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.option.active {
+    background-color: #5a5a5a;
+}
+
+.option:not(.active):hover {
+    background-color: #444;
+}
+
+.pricing {
+    margin-top: 2rem;
+}
+
+.pricing p {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pricing .total-es{
+    font-size: 1.5rem;
+}
+
+.pricing .note {
+    font-size: 0.9rem;
+    color: #ccc;
+    margin-top: 0.5rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.buttons .btn-secondary {
+    background-color: #5a5a5a;
+    border-color: #444;
+}
+
 /* Animaciones */
 @keyframes slideInFromLeft {
     0% {
@@ -252,7 +382,7 @@ main {
 
     .presentation-one .one-text-part {
         width: 90%;
-        padding-top: 2rem;
+        padding-top: 1rem;
         padding-left: 0;
     }
 
@@ -266,7 +396,7 @@ main {
 
     .presentation-one .one-images-part {
         margin-left: 0;
-        margin-top: 1rem;
+        margin-top: 1.5rem;
     }
 
     .presentation-one .one-images-part img {
