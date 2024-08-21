@@ -496,5 +496,120 @@ main {
         width: 100%;
         margin-left: -2.5rem;
     }
+    .presentation-four {
+        margin-top: 2rem;
+        overflow: hidden;
+    }
 
+    .four-text-part h1 {
+        font-size: 2.8rem;
+    }
+
+    .four-text-part p {
+        font-size: 1rem;
+        width: auto;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .four-container-info {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .preview-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .image-preview {
+        position: relative;
+        width: 100%;
+        padding-top: 100%; /* Mantiene el aspecto cuadrado */
+    }
+
+    .image-preview img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .background-preview {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .options-container {
+        width: 100%;
+        margin-top: 1.5rem;
+        padding: 0%;
+    }
+
+    .option-group {
+        margin-bottom: 1rem;
+    }
+
+    .option-group p {
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+
+    .options {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .option {
+        flex: 1 1 45%;
+        margin: 0.5rem 0;
+        text-align: center;
+        background-color: #343a40;
+        padding: 0.8rem;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 1rem;
+    }
+
+    .option.active {
+        background-color: #007bff;
+        color: #fff;
+    }
+
+    .pricing {
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .pricing p {
+        margin: 0.5rem 0;
+    }
+
+    .pricing .note{
+        font-size: 0.65rem;
+        text-align: justify;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1.5em;
+    }
+
+    .buttons .btn {
+        width: 80%;
+        margin-bottom: 0.5rem;
+    }
 }
