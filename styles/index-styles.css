@@ -165,7 +165,7 @@ main {
 
 .two-cards-part .custom-card .btn-primary {
     background-color: #840ea8;
-    border-color: #431352;
+    border-color: #840ea8;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.1rem;
     font-weight: 300;
@@ -235,14 +235,14 @@ main {
 
 .four-text-part p{
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     width: 80rem;
     margin-left: 2rem;
 }
 
 .four-container-info {
-    width: 81rem; /* El tamaño que has definido */
-    margin: 0 auto; /* Esto centrará el contenedor horizontalmente */
+    width: 81rem;
+    margin: 0 auto;
 }
 
 .preview-container {
@@ -258,7 +258,7 @@ main {
 
 .image-preview {
     position: relative;
-    width: 50%;
+    width: 34rem;
     height: auto;
 }
 
@@ -270,18 +270,19 @@ main {
     height: 100%;
     background-size: cover;
     background-position: center;
-    z-index: 1; /* Asegura que el fondo esté detrás de la imagen */
+    z-index: 1;
 }
 
 .image-preview img {
     position: relative;
     width: 100%;
     height: auto;
-    z-index: 2; /* Asegura que la imagen esté delante del fondo */
+    z-index: 2; 
 }
 
 .options-container {
     flex: 1;
+    padding-top:4rem;
     padding-left: 2rem;
 }
 
@@ -333,7 +334,7 @@ main {
 .pricing .note {
     font-size: 0.9rem;
     color: #ccc;
-    margin-top: 0.5rem;
+    margin-top: 1.2rem;
 }
 
 .buttons {
@@ -438,14 +439,14 @@ main {
     }
 
     .two-cards-part .two-container-com {
-        flex-direction: column; /* Cambia a una columna en móviles */
-        margin: 0 0.5rem; /* Reduce el margen en móviles */
+        flex-direction: column;
+        margin: 0 0.5rem;
     }
 
     .two-cards-part .custom-card {
-        flex: 1 1 100%; /* Las cartas ocupan el 100% en móviles */
+        flex: 1 1 100%;
         max-width: 100%;
-        margin-bottom: 1.5rem; /* Espaciado vertical entre cartas */
+        margin-bottom: 1.5rem;
     }
 
     .presentation-three {
