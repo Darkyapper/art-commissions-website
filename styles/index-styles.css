@@ -663,4 +663,37 @@ main {
         width: 80%;
         margin-bottom: 0.5rem;
     }
+
+    .presentation-four .more-info .presentation-more-info h2 {
+        font-size: 2.5rem;
+    }
+
+    .presentation-four .more-info .presentation-more-info p {
+        font-size: 1rem;
+        width: auto;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .presentation-four .more-info .process-info {
+        flex-direction: column;
+        align-items: center; 
+        margin-top:-0.5rem;
+    }
+
+    .presentation-four .more-info .process-info .block {
+        width: 85%; 
+        margin-bottom: 1rem;
+    }
+
+    .presentation-four .more-info .process-info .block h1 {
+        font-size: 1.8rem; 
+    }
+
+    .presentation-four .more-info .process-info .block p {
+        font-size: 1rem; 
+    }
+
+    .presentation-four .more-info .process-info .block .icon-block {
+        margin-bottom: 0.5rem; 
+    }
 }
