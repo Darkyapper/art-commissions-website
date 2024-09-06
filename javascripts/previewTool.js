@@ -16,10 +16,10 @@ const backgroundCosts = {
 
 // Mapeo de costos según el tipo de coloreado
 const colorCosts = {
-    noColor: 195,
-    flatColor: 250,
-    trueColorS: 310,
-    trueColorTS: 330
+    noColor: 95,
+    flatColor: 175,
+    trueColorS: 275,
+    trueColorTS: 300
 };
 
 // Estado inicial de la herramienta
