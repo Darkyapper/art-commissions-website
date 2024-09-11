@@ -1,3 +1,4 @@
+//Funcion para mostrar una descripcion simulada de acuerdo a los parametros en la herramienta de previsualizacion.
 function showOrderInfo() {
     const descriptions = {
         'noColor-noBG': "Detalles: Dibujo de un lobo usando un short roto, solo lineas sin color y sin fondo.",

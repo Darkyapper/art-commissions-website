@@ -10,6 +10,7 @@ body{
     overflow-x: hidden;
 }
 
+/*Estilo del menu de busqueda*/
 header {
     width: 100%;
     padding: 0.7% 0;
@@ -51,13 +52,13 @@ header {
     display: flex;
 }
 
-/* Logo */
+/* Logo en la barra de navegacion*/
 .logo img {
     height: 3.2rem;
     filter: invert(1);
 }
 
-/* Navigation Styles */
+/* Estilos del menú de navegacion */
 .navigation ul {
     list-style: none;
     display: flex;
@@ -81,10 +82,12 @@ header {
     color: #ff4b5c;
 }
 
+/*Contenedor del contenido principal*/
 main {
     padding-top: 6rem;
 }
 
+/*Primera presentacion*/
 .presentation-one{
     overflow: hidden; 
     margin-left:1.5rem;
@@ -125,6 +128,7 @@ main {
     margin-top:2rem;
 }
 
+/*Segunda presentacion*/
 .presentation-two{
     margin-top: 5rem;
 }
@@ -141,6 +145,7 @@ main {
     margin: 0;
 }
 
+/*Cards de bootstrap*/
 .two-cards-part .two-container-com {
     margin-top: 2rem;
 }
@@ -171,6 +176,7 @@ main {
     font-weight: 300;
 }
 
+/*Tercera presentacion*/
 .presentation-three{
     margin-top: 2rem;
     color: white;
@@ -217,6 +223,7 @@ main {
     font-size: 1.5rem;
 }
 
+/*Cuarta presentacion*/
 .presentation-four{
     margin-top: 5rem;
     color: white;
@@ -245,6 +252,7 @@ main {
     margin: 0 auto;
 }
 
+/*Herramienta de previsualizacion*/
 .preview-container {
     display: flex;
     justify-content: space-between;
@@ -347,7 +355,7 @@ main {
     background-color: #5a5a5a;
     border-color: #444;
 }
-
+/*Cuarta presentacion, informacion de procesos*/
 .presentation-four .more-info{
     margin-top: 1.5rem;
     color: white;
@@ -378,6 +386,7 @@ main {
     align-items: center;
 }   
 
+/*Bloques de informacion*/
 .presentation-four .more-info .process-info .block{
     display:block;
     justify-content: space-between;
@@ -399,7 +408,7 @@ main {
     font-size: 1rem;
 }
 
-/* Animaciones */
+/* Definir animaciones de la pagina */
 @keyframes slideInFromLeft {
     0% {
         transform: translateX(-100%);
@@ -424,6 +433,7 @@ main {
 
 /* Ajustes para dispositivos móviles */
 @media (max-width: 768px) {
+    /*Primera presentacion*/
     .presentation-one {
         flex-direction: column;
         align-items: center;
@@ -456,6 +466,7 @@ main {
         height: auto;
     }
 
+    /*Menu de navegacion movil*/
     .menu-icon {
         display: flex;
     }
@@ -481,6 +492,7 @@ main {
         display: flex;
     }
 
+    /*Segunda presentación, modificacion de las cards de bootstrap*/
     .two-cards-part {
         margin-top: 2rem;
     }
@@ -499,6 +511,8 @@ main {
         max-width: 100%;
         margin-bottom: 1.5rem;
     }
+
+    /*Tercera presentacion*/
 
     .presentation-three {
         flex-direction: column;
@@ -547,6 +561,8 @@ main {
         width: 100%;
         margin-left: -2.5rem;
     }
+
+    /*Cuarta presentacion*/
     .presentation-four {
         margin-top: 2rem;
         overflow: hidden;
@@ -568,6 +584,7 @@ main {
         margin: 0 auto;
     }
 
+    /*Herramienta de previsualizacion adaptada para movil*/
     .preview-container {
         display: flex;
         flex-direction: column;
@@ -664,6 +681,7 @@ main {
         margin-bottom: 0.5rem;
     }
 
+    /*Cuarta presentacion, informacion de procesos*/
     .presentation-four .more-info .presentation-more-info h2 {
         font-size: 2.5rem;
     }
@@ -680,8 +698,9 @@ main {
         margin-top:-0.5rem;
     }
 
+    /*Bloques de informacion para moviles*/
     .presentation-four .more-info .process-info .block {
-        width: 85%; 
+        width: 20rem; 
         margin-bottom: 1rem;
     }
 
